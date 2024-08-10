@@ -1,5 +1,5 @@
 {
-  "name": "dravencms/captcha",
+  "name": "dravencms/icaptcha",
   "description": "Captcha implementation for dravencms",
   "keywords": [
     "dravencms",
