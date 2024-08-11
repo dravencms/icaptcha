@@ -1,14 +1,13 @@
 {
   "name": "dravencms/icaptcha",
-  "description": "Captcha implementation for dravencms",
+  "description": "Captcha interface for dravencms",
   "keywords": [
     "dravencms",
-    "forms",
     "captcha"
   ],
   "type": "library",
   "license": "LGPL-3.0",
-  "homepage": "https://github.com/dravencms/captcha",
+  "homepage": "https://github.com/dravencms/icaptcha",
   "authors": [
     {
       "name": "Adam Schubert",

@@ -2,13 +2,11 @@
 
 namespace Dravencms\Captcha\Forms;
 
-use Dravencms\Captcha\CaptchaProvider;
-use Nette\Forms\Controls\TextInput;
-use Nette\Forms\Form;
+use Nette\Forms\Control;
 use Nette\Forms\Rules;
 use Nette\Utils\Html;
 
-interface ICaptchaField /* extends TextInput*/
+interface ICaptchaField  extends Control
 {
 
 	
@@ -21,6 +19,4 @@ interface ICaptchaField /* extends TextInput*/
 	public function verify(): bool;
 
 	public function getControl(): Html;
-
-	public function configureValidation(): void;
 }
